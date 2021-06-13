@@ -195,7 +195,6 @@ const Products = (props) => {
           <h1>CheckOut </h1>
           <Button onClick={checkOut}>CheckOut $ {finalList().total}</Button>
           <div> {finalList().total > 0 && finalList().final} </div>
-          event.preventDefault()
         </Col>
       </Row>
       <Row>
